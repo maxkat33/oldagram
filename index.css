@@ -1,0 +1,109 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #000000;
+  background: #f5f5f5;
+}
+
+/* typography */
+
+h4 {
+  margin: 0;
+  line-height: 16px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+h5 {
+  margin: 0;
+  line-height: 15px;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+/* layout */
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  height: 67px;
+  background: #ffffff;
+  border-bottom: 1px solid #c6c6c6;
+}
+
+section {
+  margin-bottom: 25px;
+  padding-bottom: 1px;
+  /* if padding-bottom value is 10px it still appears the similar? */
+  background: #ffffff;
+}
+
+.user-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 16px;
+  width: 348px;
+}
+
+.user-name-location {
+  margin-left: 7px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 21px 0 0 10px;
+  width: 105px;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.likes {
+  margin: 12px 0 12px 13px;
+}
+
+.desc {
+  margin: 0 0 16px 13px;
+}
+
+/* images */
+
+#img-logo {
+  width: 127px;
+}
+
+.avatar {
+  height: 35px;
+  border-radius: 50%;
+}
+
+.post {
+  width: 375px;
+  height: 375px;
+}
+
+.img-post {
+  object-fit: cover;
+  width: 100%;
+}
+
+.icon {
+  width: 24px;
+}
+
+/* hover effects TBC*/
